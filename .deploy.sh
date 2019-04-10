@@ -36,3 +36,8 @@ function website(){
 
   jgd -n
 }
+
+function dd (){
+   docker-compose build --no-cache
+   docker-compose up
+}
